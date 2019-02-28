@@ -17,5 +17,5 @@ def take_a_number (katz_deli, person)
 end
 
 def now_serving
-  
+  if katz_deli.empty?
 end
