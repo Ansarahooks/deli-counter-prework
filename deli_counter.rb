@@ -5,6 +5,7 @@ def line (katz_deli)
   else
     katz_deli.each_with_index do |name, index|
       puts "The line is currently: #{index+1}. #{name}"
+      binding.pry
     end
   end
 end
